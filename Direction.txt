@@ -1,0 +1,2 @@
+Outgoing TDM - (HOST) Use Ethernet Adapter
+Incoming TDM - (NONHOST) Use WIF Adapter
