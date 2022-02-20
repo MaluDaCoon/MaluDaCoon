@@ -1,0 +1,15 @@
+Outgoing TDM - (HOST) Use Ethernet Adapter
+Incoming TDM - (NONHOST) Use WIF Adapter
+Softperfect - 
+Packet Loss - Fixed Number (Loss every 1st Packet)
+Duplication - Fixed Number (Duplcate every 1st Packet)
+
+Clumsy - 
+Throttle - Your choice of a TimeFrame (Chance 30-75%)
+Duplicate - Count: 1 (Chance 30-95%)
+Out of order/Reordering (Chance 30-100%)
+
+GTA Bullets work through Packet Loss like many other games,
+but it doesn't have Packet Loss Detection.
+Therefore, you can (block out everyone elses PACKETS) and (DUPLICATE) Bullets
+and have a advantage when (XLAG VS XLAG or freeze off)
