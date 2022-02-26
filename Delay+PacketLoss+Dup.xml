@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simulator-profile>
+  <general>
+    <rates>
+      <item>
+        <name>14.4 Kbps (modem)</name>
+        <rate>14400</rate>
+      </item>
+      <item>
+        <name>33.6 Kbps (modem)</name>
+        <rate>33600</rate>
+      </item>
+      <item>
+        <name>48.0 Kbps (modem)</name>
+        <rate>48000</rate>
+      </item>
+      <item>
+        <name>56.0 Kbps (modem)</name>
+        <rate>56000</rate>
+      </item>
+      <item>
+        <name>64 Kbps (single channel ISDN)</name>
+        <rate>64000</rate>
+      </item>
+      <item>
+        <name>128 Kbps (dual channel ISDN)</name>
+        <rate>128000</rate>
+      </item>
+      <item>
+        <name>256 Kbps (DSL, Frame Relay)</name>
+        <rate>256000</rate>
+      </item>
+      <item>
+        <name>384 Kbps (DSL)</name>
+        <rate>384000</rate>
+      </item>
+      <item>
+        <name>768 Kbps (DSL)</name>
+        <rate>768000</rate>
+      </item>
+      <item>
+        <name>1.5 Mbps (T1, DSL, Cable modem)</name>
+        <rate>1500000</rate>
+      </item>
+      <item>
+        <name>2 Mbps (DSL, cable modem)</name>
+        <rate>2000000</rate>
+      </item>
+      <item>
+        <name>10 Mbps (DSL, cable modem, LAN)</name>
+        <rate>10000000</rate>
+      </item>
+    </rates>
+    <direction>1</direction>
+    <rateindex>0</rateindex>
+    <cardindex>7</cardindex>
+  </general>
+  <latency>
+    <enabled>true</enabled>
+    <type>0</type>
+    <delayfrom>7999</delayfrom>
+    <delayto>1000</delayto>
+    <impact>100</impact>
+    <correlation>10</correlation>
+  </latency>
+  <loss>
+    <enabled>true</enabled>
+    <impact>1000</impact>
+    <type>0</type>
+    <burstlo>1</burstlo>
+    <bursthi>5</bursthi>
+  </loss>
+  <duplication>
+    <enabled>true</enabled>
+    <impact>1000</impact>
+    <type>0</type>
+  </duplication>
+  <reordering>
+    <enabled>false</enabled>
+    <impact>1000</impact>
+    <gap>1</gap>
+  </reordering>
+  <corruption>
+    <enabled>false</enabled>
+    <impact>38</impact>
+    <type>2</type>
+    <berval>1</berval>
+    <time>0</time>
+  </corruption>
+  <capture>
+    <enabled>false</enabled>
+    <before></before>
+    <after></after>
+    <writemode>0</writemode>
+  </capture>
+  <blocking>
+    <enabled>false</enabled>
+    <portlist>u6672</portlist>
+  </blocking>
+  <groups/>
+  <filter>
+    <enabled>1</enabled>
+    <protocol>3</protocol>
+    <vlanid>0</vlanid>
+    <source>
+      <address>
+        <type>3</type>
+        <address-1>0.0.0.0</address-1>
+        <address-2>0.0.0.0</address-2>
+        <mac>000000000000</mac>
+        <groupid>-1</groupid>
+      </address>
+      <port>
+        <type>0</type>
+        <items/>
+      </port>
+    </source>
+    <destination>
+      <address>
+        <type>3</type>
+        <address-1>0.0.0.0</address-1>
+        <address-2>0.0.0.0</address-2>
+        <mac>000000000000</mac>
+        <groupid>-1</groupid>
+      </address>
+      <port>
+        <type>0</type>
+        <items/>
+      </port>
+    </destination>
+  </filter>
+</simulator-profile>
